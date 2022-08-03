@@ -1,13 +1,16 @@
 # ICSE Teleport Deployment Module
 
-This module allows users to Teleport VSI on existing subnets.
+This module allows users to Teleport VSI on existing subnets using a new or existing App ID instance.
 
 ---
 
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
-
+2. [Cloud Service Resources](#cloud-service-resources)
+3. [Virtual Servers](#virtual-servers)
+4. [Module Variables](#module-variables)
+5. [Module Outputs](#module-outputs)
 
 ---
 
