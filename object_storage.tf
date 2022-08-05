@@ -3,7 +3,7 @@
 ##############################################################################
 
 locals {
-  suffix = var.cos_suffix == "" ? "" : "-${var.cos_suffix}"
+  suffix = var.cos_suffix == "" ? "" : var.cos_suffix
 }
 
 resource "ibm_cos_bucket" "bucket" {
